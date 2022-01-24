@@ -1,0 +1,737 @@
+/* dasar */
+
+* {
+  font-family: poppins;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+/* navbar */
+
+.navbar .navbar-brand {
+  font-weight: 900;
+  font-size: 29px;
+  color: #1090cb;
+  margin-left: 20px;
+}
+
+.navbar .navbar-brand:hover {
+  color: #0e6b96;
+}
+
+.navbar .nav-link {
+  color: black;
+  font-size: 14px;
+  margin-left: 25px;
+}
+
+.navbar .nav-link.btn {
+  margin-left: 45px;
+  border-radius: 20px;
+  color: white;
+  background-color: #1090cb;
+}
+
+.navbar .nav-link.btn:hover {
+  background-color: #0e6b96;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+  color: #1090cb;
+}
+
+/* jumbotron */
+
+.jumbotron {
+  background-color: rgba(16, 144, 203, 0.1);
+  box-sizing: border-box;
+  padding: 100px 0;
+  height: 700px;
+}
+
+.jumbotron .display-5 {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 60px;
+}
+
+.jumbotron span {
+  color: #1090cb;
+}
+
+.jumbotron .head {
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.jumbotron .btn-1 {
+  margin-right: 10px;
+  background-color: #1090cb;
+  border-color: #1090cb;
+}
+
+.jumbotron .btn-2 {
+  border-color: #1090cb;
+  color: #1090cb;
+}
+
+.jumbotron .btn-1:hover {
+  background-color: #0e6b96;
+  border-color: #0e6b96;
+}
+
+.jumbotron .btn-2:hover {
+  background-color: #1090cb;
+  color: white;
+}
+
+.jumbotron .btn {
+  padding: 9px 52px;
+  font-size: smaller;
+  margin-bottom: 10px;
+}
+
+/* info */
+
+.info {
+  padding: 20px;
+  padding-bottom: 5px;
+}
+
+.info .thumbnail {
+  width: 83px;
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 15px;
+}
+
+.info .infohead {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 30px;
+}
+
+.info .infop {
+  color: #969696;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+/* konten */
+/* bag 1 */
+
+.teks-satu {
+  margin-top: 120px;
+  padding: 10px;
+}
+
+.teks-satu .headbag-satu {
+  font-weight: 600;
+  font-size: 33px;
+  margin-bottom: 28px;
+}
+
+.teks-satu .pbag-satu {
+  font-weight: 400;
+  line-height: 31px;
+  font-size: 16px;
+}
+
+/* bag 2-4 */
+
+.konten {
+  padding-top: 120px;
+  position: relative;
+  margin: 20px;
+}
+
+.icon {
+  width: 43px;
+  float: left;
+  margin-right: 15px;
+}
+
+.h-pesan {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 15px;
+  margin-top: 20px;
+}
+
+.p-pesan {
+  font-size: 14px;
+}
+
+.h-konten {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 51px;
+}
+
+.biru {
+  color: #1090cb;
+}
+
+.p-konten {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.img-konten {
+  min-width: 500px;
+  margin-top: -70px;
+}
+
+/* bag 2 saja */
+
+.img-konten-satu {
+  margin-left: 100px;
+}
+
+/* kartu */
+
+.kartu .card {
+  padding: 40px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+.kartu .card-title {
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 42px;
+  margin-bottom: 30px;
+}
+
+.kartu .card-text {
+  line-height: 27px;
+  font-weight: 400;
+  font-size: 15px;
+  margin-bottom: 30px;
+}
+
+.kartu .btn-card {
+  padding: 5px 30px;
+}
+
+/* card satu */
+
+.kartu .card-satu {
+  background-color: #f4f4f4;
+  border-color: #f4f4f4;
+}
+
+.kartu .card-text-satu {
+  color: #545454;
+}
+
+.kartu .btn-card-satu {
+  background-color: #1090cb;
+  border-color: #1090cb;
+}
+
+/* card dua */
+
+.kartu .card-dua {
+  background-color: #1090cb;
+  border-color: #1090cb;
+  color: #fafafa;
+}
+
+.kartu .btn-card-dua {
+  background-color: #fafafa;
+  border-color: #fafafa;
+  color: #1090cb;
+}
+
+/* input */
+
+.input {
+  background-color: rgba(16, 144, 203, 0.1);
+  margin-top: 50px;
+  position: relative;
+}
+
+.input .teks-input {
+  margin: 100px 0 80px;
+}
+
+.input .input-wadah {
+  padding-bottom: 80px;
+}
+
+.input .input-input {
+  background-color: #fff;
+  font-size: 16px;
+  box-shadow: 1px 0 10px rgba(0, 0, 0, 0.253);
+  border-radius: 15px;
+  width: 75%;
+  display: inline-block;
+  height: 48px;
+  border: none;
+}
+
+.input .btn-input {
+  height: 48px;
+  text-transform: uppercase;
+  border-radius: 15px;
+  box-shadow: 1px 0 10px rgba(0, 0, 0, 0.253);
+}
+
+/* sub-footer */
+
+.sub-footer {
+  padding: 20px;
+}
+
+.sub-footer .logo {
+  font-weight: 700 !important;
+  color: #1090cb;
+}
+
+.sub-footer .footer-tebal {
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+.sub-footer .pfoot {
+  font-size: 14px;
+}
+
+.sub-footer .ppoot {
+  margin-bottom: 20%;
+}
+
+.sub-footer .sosmed {
+  width: 34px;
+  height: 34px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.466);
+  line-height: 34px;
+  margin-bottom: 35px;
+}
+
+/* footer */
+
+.sub-footer .inibarufooter {
+  font-size: 12px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+/* breakpoints */
+
+@media (max-width: 1200px) {
+  .kartu .card {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 992px) {
+  .jumbotron {
+    padding-top: 130px;
+    padding-bottom: 135px;
+    height: min-content;
+  }
+
+  .jumbotron img {
+    padding-top: 40px;
+    min-width: 380px;
+  }
+
+  .jumbotron .display-5 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .jumbotron .head {
+    line-height: 26px;
+    font-size: 14px;
+  }
+
+  .jumbotron .btn {
+    padding: 6px 40px;
+  }
+
+  .info .thumbnail {
+    float: none;
+  }
+
+  .pesan {
+    margin-top: 10px;
+  }
+
+  .img-konten {
+    margin-left: 0;
+  }
+
+  .icon {
+    width: 38px;
+  }
+
+  .h-pesan {
+    font-size: 15px;
+  }
+
+  .p-pesan {
+    font-size: 13px;
+  }
+
+  .h-konten {
+    font-size: 24px;
+    line-height: 40px;
+  }
+
+  .p-konten {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .kartu .card-title {
+    font-size: 21px;
+    line-height: 34px;
+  }
+
+  .kartu .card-text {
+    line-height: 22px;
+    font-size: 13px;
+  }
+
+  .kartu .btn-card {
+    padding: 5px 27px;
+  }
+}
+
+@media (max-width: 769px) {
+  .elipse-satu {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  /* navbar */
+
+  .navbar .nav-link.btn {
+    margin: auto;
+    padding: 9px 140px;
+    margin-top: 10px;
+  }
+
+  /* jumbotron */
+
+  .jumbotron .gheader {
+    order: -1;
+  }
+
+  .jumbotron {
+    padding: 10px;
+    height: min-content;
+  }
+
+  .jumbotron img {
+    padding: 20px 0;
+    min-width: 250px;
+  }
+
+  .jumbotron .btn {
+    margin-bottom: 25px;
+  }
+
+  .teks-satu {
+    margin-top: 80px;
+  }
+
+  .teks-satu .headbag-satu {
+    font-size: 28px;
+    margin-bottom: 24px;
+  }
+
+  .teks-satu .pbag-satu {
+    line-height: 26px;
+    font-size: 13px;
+  }
+
+  .konten {
+    padding-top: 80px;
+    margin: 20px 30px;
+  }
+
+  .img-konten {
+    position: relative;
+    margin-top: 0;
+    margin-left: 0;
+    min-width: 300px;
+  }
+
+  .pesan {
+    padding: 50px 30px;
+  }
+
+  .gambar-konten {
+    order: -1;
+  }
+
+  .sub-footer .hilang {
+    display: none;
+  }
+}
+
+@media (max-width: 576px) {
+  .teks-satu {
+    margin-top: 70px;
+  }
+
+  .teks-satu .headbag-satu {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+
+  .teks-satu .pbag-satu {
+    line-height: 22px;
+    font-size: 12px;
+  }
+
+  .info {
+    padding: 10px;
+    padding-bottom: 5px;
+    margin-left: 10px;
+  }
+
+  .info .thumbnail {
+    width: 63px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+  }
+
+  .info .infohead {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+  }
+
+  .info .infop {
+    color: #969696;
+    font-size: 12px;
+    font-weight: 400;
+  }
+
+  .input .teks-input {
+    margin: 60px 0 40px;
+  }
+
+  .input .input-input {
+    font-size: 16px;
+    width: 70%;
+    height: 40px;
+    border: none;
+    margin-bottom: 10px;
+  }
+
+  .input .btn-input {
+    height: 40px;
+  }
+
+  .sub-footer .footer-tebal {
+    margin-bottom: 22px;
+  }
+
+  .sub-footer .ppoot {
+    margin-bottom: 10%;
+  }
+
+  .sub-footer .subfoot-contact {
+    text-align: center;
+    padding-bottom: 30px;
+    margin: auto;
+  }
+}
+
+@media (max-width: 400px) {
+  /* navbar */
+
+  .navbar .nav-link.btn {
+    margin: auto;
+    padding: 9px 52px;
+    margin-top: 10px;
+  }
+
+  /* jumbotron */
+
+  .jumbotron .display-5 {
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  .jumbotron .head {
+    line-height: 20px;
+    font-size: 12px;
+  }
+
+  .jumbotron .btn {
+    padding: 4px 32px;
+  }
+
+  .jumbotron img {
+    margin-left: -10px;
+    min-width: 200px;
+  }
+
+  .navbar .navbar-brand {
+    margin-left: 0;
+  }
+
+  .konten {
+    padding-top: 60px;
+    margin: 15px;
+  }
+
+  .icon {
+    width: 30px;
+    margin-right: 10px;
+  }
+
+  .h-pesan {
+    font-size: 14px;
+  }
+
+  .p-pesan {
+    font-size: 12px;
+  }
+
+  .h-konten {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+  }
+
+  .p-konten {
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .kartu .card {
+    padding: 10px;
+    margin: 5px;
+  }
+
+  .kartu .card-title {
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 20px;
+  }
+
+  .kartu .card-text {
+    line-height: 18px;
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
+
+  .kartu .btn-card {
+    padding: 3px 20px;
+  }
+}
+
+@media (max-width: 300px) {
+  .info .thumbnail {
+    width: 58px;
+  }
+
+  .info .infohead {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .info .infop {
+    font-size: 10px;
+    font-weight: 400;
+  }
+}
+
+/* utility */
+
+.bundar {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(250, 250, 41);
+  border-radius: 50%;
+  filter: blur(100px);
+  position: absolute;
+  right: 0;
+  top: 200px;
+  z-index: -1;
+}
+
+.bundar-dua {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(252, 150, 150);
+  border-radius: 50%;
+  filter: blur(50px);
+  position: absolute;
+  left: 0;
+  top: 200px;
+  z-index: -1;
+}
+
+.bundar-tiga {
+  width: 100px;
+  height: 100px;
+  background-color: purple;
+  border-radius: 50%;
+  filter: blur(50px);
+  position: absolute;
+  right: 0;
+  top: 200px;
+  z-index: -1;
+}
+
+.bundar-empat {
+  left: 0;
+}
+
+.bundar-lima {
+  right: 0;
+  width: 100px;
+  height: 100px;
+  background-color: rgb(252, 150, 150);
+  border-radius: 50%;
+  filter: blur(100px);
+  position: absolute;
+  top: 200px;
+  z-index: -1;
+}
+
+.elipse-satu {
+  width: 100px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: #08d3bb;
+  position: absolute;
+  left: 0;
+  transform: rotate(90deg) translate(100px, 110px);
+  bottom: 0;
+}
+
+.object {
+  position: absolute;
+  font-size: 40px;
+}
+
+.bintang {
+  color: yellow;
+  text-shadow: 1px 1px 1px black;
+  left: -40%;
+  top: -30px;
+  transform: rotate(30deg);
+}
+
+.medali {
+  color: rgb(150, 0, 150);
+  text-shadow: 1px 1px 1px black;
+  left: 40%;
+  transform: rotate(-30deg);
+}
