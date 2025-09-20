@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { navLinks } from '../constans';
+import { navLinks } from '../constants';
 
 const NavItems = () => {
   return (
